@@ -198,3 +198,15 @@
     --bg--url: url(assets/bg-desktop-light.jpg);
   }
 }
+.secao {
+  display:none; /* começa escondido */
+  margin: 16px auto; /* espaço acima e abaixo */
+  max-width: 500px;
+
+  padding: 0%;
+  border-radius: 12px;
+  text-align: center;
+}
+
+
+
