@@ -198,3 +198,9 @@
     --bg--url: url(assets/bg-desktop-light.jpg);
   }
 }
+
+.secao {
+  display: none;              /* Escondido por padrão */
+  padding: 6px;
+  font-family: sans-serif;
+}
