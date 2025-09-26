@@ -6,6 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Solara</title>
     <link rel="stylesheet" href="style.css">
+
+    <script>
+  function mostrarSecao(id) {
+    const secao = document.getElementById(id);
+    // alterna entre mostrar e esconder
+    if (secao.style.display === "none" || secao.style.display === "") {
+      secao.style.display = "block";
+    } else {
+      secao.style.display = "none";
+    }
+  }
+</script>
 </head>
 <body>
      
@@ -28,9 +40,16 @@
                 <p></p>
             </li>
 
-            <li>
-                <a href="#">Sobre</a>
-            </li>
+            <ul>
+        <li><a href="#" onclick="mostrarSecao('sobre')">Sobre</a></li>
+    </ul>
+
+    <!-- Seção Sobre (escondida por padrão) -->
+        <div id="sobre" class="secao">
+  <p>
+    #
+  </p>
+</div>
 
             
             <li>
